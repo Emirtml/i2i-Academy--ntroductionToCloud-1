@@ -29,5 +29,3 @@ This repository contains the technical implementation details for the first clou
 ### 2. Network Connectivity Validation (Ping Test)
 * Configured the instance's AWS Security Group to allow inbound **All ICMP - IPv4** traffic from any source (`0.0.0.0/0`).
 * Executed an ICMP network diagnostics check from the local machine:
-```bash
-ping 51.21.254.24
